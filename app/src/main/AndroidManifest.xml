@@ -3,6 +3,7 @@
     package="co.edureka.edurekajuly7">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -11,10 +12,22 @@
         android:roundIcon="@drawable/folder"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivityOne">
+        <activity android:name=".ActivityOne" />
+        <activity android:name=".ActivityTwo" />
+        <activity android:name=".LoginActivity">
 
         </activity>
-        <activity android:name=".ActivityTwo">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="co.edureka.edurekajuly7.homeactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        s
+        <activity android:name=".AddressDetailsActivity" />
+        <activity android:name=".MyFragmentsActivity"></activity>
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

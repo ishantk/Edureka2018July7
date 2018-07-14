@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="CNN"
+        android:id="@+id/cnn"/>
+
+    <item android:title="ZEE"
+        android:id="@+id/zee"/>
+
+    <item android:title="BBC"
+        android:id="@+id/bbc"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_day"/>
+
+    <item android:title="NDTC"
+        android:id="@+id/ndtv"/>
+
+</menu>

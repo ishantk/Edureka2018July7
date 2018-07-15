@@ -14,9 +14,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ActivityOne" />
         <activity android:name=".ActivityTwo" />
-        <activity android:name=".LoginActivity">
-
-        </activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="co.edureka.edurekajuly7.homeactivity" />
@@ -26,7 +24,7 @@
         </activity>
         s
         <activity android:name=".AddressDetailsActivity" />
-        <activity android:name=".MyFragmentsActivity"></activity>
+        <activity android:name=".MyFragmentsActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,6 +32,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AllStudentsActivity" />
+        <activity android:name=".DynamicLayoutActivity" />
+        <activity
+            android:name=".MyNavActivity"
+            android:label="@string/title_activity_my_nav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyConfigActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden" />
+
+        <activity android:name=".PLActivity"/>
+            <!--android:screenOrientation="portrait"/>-->
     </application>
 
 </manifest>

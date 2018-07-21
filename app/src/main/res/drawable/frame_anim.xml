@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/category"
+        android:duration="1000"/>
+
+    <item android:drawable="@drawable/folder"
+        android:duration="1000"/>
+
+    <item android:drawable="@drawable/contact"
+        android:duration="1000"/>
+
+    <item android:drawable="@drawable/pb"
+        android:duration="1000"/>
+
+    <item android:drawable="@drawable/music"
+        android:duration="1000"/>
+
+</animation-list>

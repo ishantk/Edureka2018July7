@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -48,7 +49,12 @@
         <activity android:name=".PersistanceActivity" />
         <activity android:name=".MySettingsActivity" />
         <activity android:name=".MyMediaPlayerActivity" />
-        <activity android:name=".AnimationsActivity"></activity>
+        <activity android:name=".AnimationsActivity" />
+        <activity android:name=".BooksActivity" />
+
+        <service
+            android:name=".BooksFetcherService"
+            android:exported="false"></service>
     </application>
 
 </manifest>

@@ -7,6 +7,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import co.edureka.edurekajuly7.view.AddCustomerActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override
@@ -28,7 +30,7 @@ public class SplashActivity extends AppCompatActivity {
         @Override
         public void handleMessage(Message msg) {
             if(msg.what == 101){
-                Intent intent = new Intent(SplashActivity.this,MyLocationActivity.class);
+                Intent intent = new Intent(SplashActivity.this,AddCustomerActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -58,7 +58,24 @@
             android:name=".BooksFetcherService"
             android:exported="false" />
 
-        <activity android:name=".MyLocationActivity"></activity>
+        <activity android:name=".MyLocationActivity" />
+
+        <receiver
+            android:name=".MyBatterLowReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".view.AddCustomerActivity" />
+
+        <provider
+            android:name=".provider.MyCustomerProvider"
+            android:authorities="co.edureka.edurekajuly7.mycp"
+            android:enabled="true"
+            android:exported="true"></provider>
     </application>
 
 </manifest>

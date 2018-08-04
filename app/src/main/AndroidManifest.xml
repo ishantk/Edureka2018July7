@@ -75,7 +75,10 @@
             android:name=".provider.MyCustomerProvider"
             android:authorities="co.edureka.edurekajuly7.mycp"
             android:enabled="true"
-            android:exported="true"></provider>
+            android:exported="true" />
+
+        <activity android:name=".AddUserActivity" />
+        <activity android:name=".MySensorActivity"></activity>
     </application>
 
 </manifest>

@@ -11,10 +11,10 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="title">Welcome, Add a New User</string>
-    <string name="hintName">Enter Full Name</string>
-    <string name="hintEmail">Enter Email ID</string>
-    <string name="hintPhone">Enter Phone Number</string>
-    <string name="add">Add User</string>
+    <string name="title">Bienvenue, ajoutez un nouvel utilisateur</string>
+    <string name="hintName">Entrez le nom complet</string>
+    <string name="hintEmail">Entrer un identifiant email</string>
+    <string name="hintPhone">Entrez le numéro de téléphone</string>
+    <string name="add">Ajouter un utilisateur</string>
 
 </resources>
